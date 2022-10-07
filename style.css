@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+.navbar-header{
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -390,6 +394,9 @@ a:hover {
         float: none;
         display: inline-block;
     }
+    .navbar-header{
+        text-align: center;
+    }    
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -779,7 +786,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    /*background: #d35d26;*/
+    background: #ad3201;
     color: #FFFFFF!important;
 }
 
@@ -819,6 +827,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
+    opacity: 0,2;
 }
 
 .bg-presentation {
@@ -968,6 +977,7 @@ h4 {
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
+        text-align: center;
     }
     .nav-invert .navbar-toggle {
         float: left;
