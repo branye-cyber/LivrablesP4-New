@@ -388,6 +388,7 @@ a:hover {
     .nav-center .nav > li {
         float: none;
         display: inline-block;
+        text-align: center;
     }
     .navbar-header{
         text-align: center;
@@ -879,10 +880,7 @@ h2 {
         overflow-x: hidden;
         position: relative;
     }
-/*    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }*/
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -891,8 +889,6 @@ h2 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-/*        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
